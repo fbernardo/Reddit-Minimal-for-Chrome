@@ -5,12 +5,11 @@
       "css" : [ "style.css" ],
       "run_at": "document_end"
    } ],
-   "description": "Desc",
    "icons": {
       "128": "Icon.png"
    },
    "name": "Reddit Minimal",
-   "desc" : "Chrome version of the excelent Reddit Minimal Safari extension, made by Cornell Campbell",
+   "description" : "Chrome version of the excelent Reddit Minimal Safari extension, made by Cornell Campbell",
    "permissions": [ "http://reddit.com/*" ],
    "version": "0.1"
 }
