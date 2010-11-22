@@ -1,0 +1,366 @@
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{*font-size:100%;}legend{color:#000;}
+/* Hide Elements */
+#siteTable_organic, #ad-frame, .side {
+	display: none !important;
+}
+body, p, div, h1, h2, h3, h4, h5, h6 {
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif !important;
+	color: #252525 !important;
+	-webkit-font-smoothing: antialiased !important;
+}
+body, p {
+	font-size: 13px !important;
+	line-height: 21px !important;
+}
+body {
+	margin: 35px !important;
+	/*width: 980px !important;*/
+}
+body.toolbar {
+	margin: 0px !important;
+}
+body.toolbar,
+body.toolbar p {
+	font-size: 13px !important;
+	line-height: 18px !important;
+}
+body.toolbar .clickable:active {
+	background-color: white !important;
+}
+#sr-header-area {
+	font-size: 10px !important;
+	/*text-transform: none !important;*/
+	margin-bottom: 15px !important;
+	padding: 0px !important;
+	padding-bottom: 10px !important;
+	border-bottom: solid 1px #d0d0d0 !important;
+}
+#sr-more-link {
+	font-size: 10px !important;
+	color: #454545 !important;
+	background-color: white !important;
+	top: 0px !important;
+}
+.dropdown.srdrop .selected {
+	background-position: 100% 10% !important;
+}
+.content {
+	min-height: 150px !important;
+}
+.wikipage {
+	width: 980px !important;
+}
+
+.content,
+.content .menuarea,
+.error,
+.usertable,
+.wikipage,
+.wikipage h1, 
+.wikipage h2, 
+.wikipage h3, 
+.wikipage h4,
+.wiki-toc > ol,
+.self-service.instructions p {
+	padding-left: 0px !important;
+	padding-right: 0px !important;
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+a {
+	color: #757575 !important;
+}
+a:hover {
+	color: #353535 !important;
+}
+.instructions a,
+#remember-me a,
+.wikipage a,
+.menuarea li a,
+.thing p a,
+.new-blue,
+body.toolbar a {
+	color: #5196B0 !important;
+}
+.instructions a:hover,
+#remember-me a:hover,
+.wikipage a:hover,
+.menuarea li a:hover,
+.thing p a:hover,
+body.toolbar a:hover {
+	color: #337B94 !important;
+}
+body.toolbar a.title {
+	color: #353535 !important;
+}
+body.toolbar a.title:hover {
+	color: #151515 !important;
+}
+#header-img-a {
+	visibility: hidden;
+}
+#header,
+#header > div {
+	background-color: transparent !important;
+}
+#header {
+	margin-bottom: 25px !important;
+	border-bottom: none !important;
+}
+span.pagename {
+	position: relative;
+	top: -8px;
+}
+
+/* Tab Menu */
+.formtabs-content {
+	border-top: none !important;
+}
+ul.tabmenu.formtab {
+	display: inline-block !important;
+	padding-left: 0px !important;
+}
+ul.tabmenu {
+	overflow: hidden !important;
+}
+ul.tabmenu li a,
+.tabmenu.formtab a {
+	background-color: transparent !important;
+	font-weight: normal !important;
+	color: #151515 !important;
+	display: block !important;
+	float: left !important;
+	padding: 3px 8px !important;
+	margin-right: 3px !important;
+	font-size: 14px !important;
+	border-radius: 5px !important;
+	border: none !important;
+}
+ul.tabmenu li.selected a {
+	border: none !important;
+}
+ul.tabmenu li a:hover,
+ul.tabmenu li.selected a {
+	color: white !important;
+	background-color: black !important;
+}
+.user a, a.pref-lang, #header-bottom-right form.logout a {
+	padding: 2px !important;
+	font-weight: normal !important;
+}
+a.submit-link {
+	padding: 2px 4px !important;
+	font-weight: bold !important;
+}
+.user a:hover, a.pref-lang:hover, a.submit-link, a.submit-link:hover, #header-bottom-right form.logout a:hover {
+	color: white !important;
+	background-color: black !important;
+	text-decoration: none !important;
+	border-radius: 3px !important;
+}
+a#log-in {
+	border-radius: 5px;
+	background-color: #b5b5b5;
+	padding: 6px 7px;
+	margin-left: 6px;
+	color: white !important;
+}
+a#log-in:hover,
+a.open {
+	background-color: #c5c5c5 !important;
+}
+a#log-in img {
+	vertical-align: middle;
+}
+#header-bottom-right {
+	font-size: 12px !important;
+	bottom: 4px !important;
+}
+#login_login-main {
+	position: absolute !important;
+	top: 23px !important;
+	right: 4px !important;
+	background-color: white !important;
+	border: solid 5px #c5c5c5 !important;
+	border-radius: 5px !important;
+	padding: 8px !important;
+	width: 215px !important;
+}
+.login-form-side {
+	color: #777 !important;
+}
+.login-form-side input[type="text"], 
+.login-form-side input[type="password"] {
+	width: 195px !important;
+	padding: 3px !important;
+	margin: 0px !important;
+	margin-bottom: 7px !important;
+	border: solid 1px #ccc !important;
+	border-radius: 3px !important;
+	color: #454545 !important;
+}
+#remember-me {
+	margin: 0px !important;
+}
+.menuarea {
+	border: none !important;
+	font-size: 14px !important;
+}
+.menuarea li a {
+	padding: 4px 8px !important;
+	font-weight: normal !important;
+	margin-right: 3px !important;
+}
+.menuarea li.selected a,
+.menuarea li a:hover {
+	background-color: #5196B0 !important;
+	color: white !important;
+	text-decoration: none !important;
+	border-radius: 5px !important;
+}
+.menuarea li.selected a {
+	cursor: default;
+}
+.menuarea .separator {
+	display: none !important;
+}
+.roundfield {
+	background-color: #f0f0f0 !important;
+}
+
+/* buttons */
+.btn, .button, input[type="submit"], button {
+	background-position: 0px 0px !important;
+	border-radius: 18px !important;
+	padding: 6px 17px 8px !important;
+	font-size: 13px !important;
+	-webkit-box-shadow: rgba(0, 0, 0, 0.246094) 0px 1px 3px !important;
+	background: #222 url(36px-blended.png) repeat-x 0px 1px !important;
+	color: white !important;
+	cursor: pointer !important;
+	/*display: inline-block !important;*/
+	font-weight: bold !important;
+	line-height: 1 !important;
+	overflow: visible !important;
+	position: relative !important;
+	text-decoration: none !important;
+	text-shadow: rgba(0, 0, 0, 0.246094) 0px -1px 1px !important;
+	width: auto !important;
+	border: none !important;
+	font-family: "Helvetica Neue", helvetica, arial, sans-serif !important;
+}
+.btn:hover, .button:hover, input[type="submit"]:hover, button:hover {
+	background-color: black !important;
+}
+.submit-link {
+	
+}
+.submit-link:hover {
+	color: white !important;
+}
+p.nextprev {
+	margin: 50px 0px 25px 0px !important;
+}
+a.prev-btn,
+a.next-btn {
+	font-size: 17px !important;
+	font-weight: normal !important;
+	color: #353535 !important;
+	padding: 20px 30px !important;
+	background-color: #e5e5e5 !important;
+	border-radius: 7px !important;
+}
+a.prev-btn {
+	margin-right: 12px !important;
+}
+/*a.prev-btn {
+	float: left !important;
+}
+a.next-btn {
+	float: right !important;
+}*/
+a.prev-btn:hover,
+a.next-btn:hover {
+	background-color: #d0d0d0 !important;
+}
+
+/* Things */
+.link.promotedlink.promoted {
+	background-color: #f0f0f0 !important;
+	border: none !important;
+}
+.link.promotedlink {
+	border: none !important;
+}
+.thing {
+	border: none !important;
+	margin: 15px 0px !important;
+	padding: 10px !important;
+}
+.linklisting .thing.odd {
+	background-color: #f0f0f0 !important;
+}
+.nestedlisting .thing,
+.nestedlisting .thing p {
+	line-height: 18px !important;
+}
+.thing p.title a {
+	color: #757575 !important;
+}
+.thing p.title a:hover {
+	color: #353535 !important;
+}
+
+.link {
+	border: none !important;
+}
+.comment .child {
+	border-left: solid 1px #ccc !important;
+}
+
+.footer {
+	font-size: 11px !important;
+	margin: 0px !important;
+	border: none !important;
+	display: block !important;
+	margin-bottom: 35px !important;
+	padding: 0px !important;
+}
+.footer .col,
+.footer ul,
+.footer ul li {
+	list-style: none !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+.footer ul.flat-vert li {
+	font-size: 12px !important;
+	line-height: 16px !important;
+}
+.footer ul.flat-vert li.title {
+	font-weight: bold !important;
+	text-transform: capitalize !important;
+}
+.footer .col {
+	margin-right: 30px !important;
+	padding-left: 30px !important;
+	height: 135px !important;
+	margin-bottom: 35px !important;
+}
+.footer .col:first-child {
+	padding-left: 0px !important;
+}
+p.bottommenu {
+	font-size: 12px !important;
+	text-align: left !important;
+}
+
+.pretty-form input[type="text"], 
+.pretty-form input[type="file"], 
+.pretty-form input[type="password"], 
+.pretty-form select, 
+.pretty-form b, 
+.pretty-form textarea, 
+.pretty-form button {
+	margin-left: 0px !important;
+}
