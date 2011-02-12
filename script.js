@@ -12,7 +12,7 @@ function init() {
 		$(toRemove[i]).remove();
 	};
 	$('.footer').removeClass('rounded');
-	$('#header-img-a').html('<img src="' + chrome.extension.getURL('reddit-logo.gif') + '" width="112" height="35" />').css('visibility', 'visible');
+	$('#header-img-a').html('<img src="https://dl.dropbox.com/s/2gq6jypo1zrqd4r/reddit-logo.gif?dl=1" width="112" height="35" />').css('visibility', 'visible');
 	if (login_login_main.length > 0) {
 		$('#header-bottom-right').append('<a href="#" id="log-in">Log In <img src="' + chrome.extension.getURL('down-arrow.png') +'" width="12" height="12" /></a>').append(login_login_main);
 		$('#log-in').live('click', function(event) {

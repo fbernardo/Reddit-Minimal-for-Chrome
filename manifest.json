@@ -11,5 +11,5 @@
    "name": "Reddit Minimal",
    "description" : "Chrome version of the excelent Reddit Minimal Safari extension, made by Cornell Campbell",
    "permissions": [ "http://reddit.com/*" ],
-   "version": "0.1"
+   "version": "0.2"
 }
