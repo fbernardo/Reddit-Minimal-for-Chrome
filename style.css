@@ -304,12 +304,17 @@ a.next-btn:hover {
 .nestedlisting .thing p {
 	line-height: 18px !important;
 }
+
 .thing p.title a {
-	color: #757575 !important;
+	color: #757575 !important;	
 }
 .thing p.title a:hover {
-	color: #353535 !important;
+	color: #353535 !important;	
 }
+.thing p.title a:visited { 
+	color:#666699 !important;
+}
+
 
 .link {
 	border: none !important;
