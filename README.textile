@@ -1,14 +1,14 @@
 h3. What is it?
 
-This extension is a port of Reddit Minimal for Safari, created by Cornell Campbell (http://cornellcampbell.com/extensions/).
+This extension is a port of Reddit Minimal for Safari, created by "Cornell Campbell":http://cornellcampbell.com/extensions/.
 
 h3. Why would I need it?
 
-In general, it cleans your Reddit page. Just check the two images on Campbell's website (http://cornellcampbell.com/extensions/) and you'll understand.
+In general, it cleans your Reddit page. Just check the two images on "Campbell's website":http://cornellcampbell.com/extensions/ and you'll understand.
 
 h3. How do I install it?
 
-You can just download the .crx from my Dropbox (https://dl.dropbox.com/s/ctofyhgp4k0pnyf/Reddit-Minimal-for-Chrome.crx?dl=1) or you can download the source from github and load it unpacked on Chrome.
+You can just download the .crx from my "Dropbox":https://dl.dropbox.com/s/ctofyhgp4k0pnyf/Reddit-Minimal-for-Chrome.crx?dl=1 or you can download the source from github and load it unpacked on Chrome.
 
 h3. I love it but would you add/fix 'that'?
 
